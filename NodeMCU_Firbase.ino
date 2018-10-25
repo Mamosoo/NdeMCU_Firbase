@@ -1,11 +1,11 @@
 #include <ESP8266WiFi.h>
 #include <FirebaseArduino.h>
 // Set these to run example.
-#define FIREBASE_HOST "eletricalimi.firebaseio.com"
-#define FIREBASE_AUTH "ddxwHagHc85El8PXZqzmfKtUwLzgug7rYq6Z53eA"
+#define FIREBASE_HOST "UR_FIREBASE_HOST"
+#define FIREBASE_AUTH "UR_FIREBASE_SECRET_KEY"
 
-#define WIFI_SSID "ktEgg_497"
-#define WIFI_PASSWORD "info68097"
+#define WIFI_SSID "UR_SSID"
+#define WIFI_PASSWORD "UR_PASSWORD"
 void setup() {
   Serial.begin(9600);
   pinMode(D1, OUTPUT);
