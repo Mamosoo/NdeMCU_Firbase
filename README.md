@@ -7,7 +7,7 @@
 
 ### 셋업 과정
 
-#### No.1 [해당레포](https://github.com/FirebaseExtended/firebase-arduino/tree/master/examples/FirebaseDemo_ESP8266) 에 접속하여 FirebaseArduino library 를 다운로드 받습니다. No.2 '스케치 > 라이브러리 추가 > 집라이브러리추가 > 위에서 다운로드 받은 파일 추가' No.3 '예제파일 열기 > FirebaseArduino > FirebaseDemo_ESP8266.ino' No4.Firebase콘솔에 접속하여 Secret Code 와 Host를 확인후 작성합니다. No5.연결할 네트워크의 SSID 와 Password를 작성합니다. No.6 콘솔의 DATA 에 접속하여 스케치의 시리얼모니터에서 보내는 값이 잘 들어가는지 확인합니다.
+#### 1. [해당레포](https://github.com/FirebaseExtended/firebase-arduino/tree/master/examples/FirebaseDemo_ESP8266) 에 접속하여 FirebaseArduino library 를 다운로드 받습니다. 2. '스케치 > 라이브러리 추가 > 집라이브러리추가 > 위에서 다운로드 받은 파일 추가' 3. '예제파일 열기 > FirebaseArduino > FirebaseDemo_ESP8266.ino' No4.Firebase콘솔에 접속하여 Secret Code 와 Host를 확인후 작성합니다. 4.연결할 네트워크의 SSID 와 Password를 작성합니다. 5. 콘솔의 DATA 에 접속하여 스케치의 시리얼모니터에서 보내는 값이 잘 들어가는지 확인합니다.
 
 
 
