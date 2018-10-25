@@ -10,7 +10,7 @@ void setup() {
   Serial.begin(9600);
   pinMode(D1, OUTPUT);
   pinMode(D2, OUTPUT);
-  // connect to wifi.
+
   WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
   Serial.print("connecting");
   while (WiFi.status() != WL_CONNECTED) {
@@ -30,7 +30,7 @@ void loop() {
   // get value
   n = Firebase.getInt("LED_STATUS");
   i = Firebase.getInt("COFFEE_STATUS");
-  // handle error
+
   if (n == 1) {
     Serial.println("LED ON");
     digitalWrite(D1, HIGH);
